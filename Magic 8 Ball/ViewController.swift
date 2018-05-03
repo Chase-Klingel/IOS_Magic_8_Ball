@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     }
     
     let ballArray = ["ball1", "ball2", "ball3",
-                   "ball4", "ball5"]
+                     "ball4", "ball5"]
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -33,7 +33,7 @@ class ViewController: UIViewController {
     
     func generateRandomAnswer() {
         randomEightBallIndex = Int(arc4random_uniform(5))
-        eightBall.image      = UIImage(named :      ballArray[randomEightBallIndex])
+        eightBall.image      = UIImage(named : ballArray[randomEightBallIndex])
     }
 }
 
